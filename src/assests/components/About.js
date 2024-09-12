@@ -22,7 +22,7 @@ const TextContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2px;
+  padding: 2px,;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -33,6 +33,7 @@ const TextContent = styled.div`
   color: black;
   font-size: 1.2em;
   text-align: center;
+  
 `;
 
 const Title = styled.h2`
@@ -57,7 +58,7 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 `;
 
 const About = ({ imageSrc, altText }) => (
@@ -70,9 +71,9 @@ const About = ({ imageSrc, altText }) => (
         </Paragraph>
         <Subtitle>Learn how to</Subtitle>
         <List>
-          <ListItem><strong> * Shed unwanted fat and feel amazing in your skin</strong> </ListItem>
-          <ListItem><strong>* Build strength without spending hours in the gym</strong> </ListItem>
-          <ListItem><strong>* Learn the secrets to maintaining your results for life</strong></ListItem>
+          <ListItem><strong>  Shed unwanted fat and feel amazing in your skin</strong> </ListItem>
+          <ListItem><strong> Build strength without spending hours in the gym</strong> </ListItem>
+          <ListItem><strong>Learn the secrets to maintaining your results for life</strong></ListItem>
         </List>
         
         <Paragraph>

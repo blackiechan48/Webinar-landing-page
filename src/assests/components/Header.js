@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const HeaderContainer = styled.header`
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
   width: 100%;
 
@@ -16,10 +16,10 @@ const Title = styled.h1`
   font-size: 2.5em;
   margin: 0;
   background: black;
-  padding: 10px;
+  padding: 1px;
 
   @media (max-width: 768px) {
-    font-size: 2em;
+    font-size: 1em;
   }
 `;
 
