@@ -20,13 +20,13 @@ const PageContainer = styled.div`
 // Styled component for the image box
 const ImageBox = styled.div`
   width: 100%;
-  aspect-ratio: 16/9; /* Maintains a 16:9 aspect ratio */
+  aspect-ratio: 16/9; 
   margin-bottom: 20px;
 
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the box properly */
+    object-fit: cover; 
     border: none;
   }
 `;
