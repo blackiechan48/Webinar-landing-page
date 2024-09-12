@@ -41,10 +41,10 @@ const Title = styled.h2`
   margin-bottom: 20px;
 `;
 
-const Subtitle = styled.h3`
-  font-size: 1.3em;
-  margin-bottom: 10px;
-`;
+// const Subtitle = styled.h3`
+//   font-size: 1.3em;
+//   margin-bottom: 10px;
+// `;
 
 const Paragraph = styled.p`
   margin-bottom: 10px;
