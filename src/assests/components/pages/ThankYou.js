@@ -63,16 +63,16 @@ const TextContent = styled.div`
 const VideoPage = () => {
   return (
     <PageContainer>
-      {/* Image Box instead of video */}
+     
       <ImageBox>
-        {/* Replace the src with your image URL */}
+        
         <img 
           src="/hurray1.jpg" 
           alt="Thank you" 
         />
       </ImageBox>
 
-      {/* Title, Subtitle, and Text Content */}
+      
       <Title>YOU'RE IN! HURRAY!!</Title>
       <Subtitle>Thank you, Your seat has been reserved and I look forward to seeing you.</Subtitle>
       <TextContent>

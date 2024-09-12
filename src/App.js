@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Landing from './assests/components/pages/Landing'; // Adjust the path if necessary
+import Landing from './assests/components/pages/Landing'; 
 import './index.css';
 import ThankYou from './assests/components/pages/ThankYou';
 
@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/Thankyou" element={<ThankYou />} />
+        <Route path="/Webinar-confirmation" element={<ThankYou />} />
         
       </Routes>
     </Router>
