@@ -67,13 +67,14 @@ const About = ({ imageSrc, altText }) => (
       <TextContent>
         <Title>Unlock Your Best Self with Expert Guidance</Title>
         <Paragraph>
-          Are you ready to transform your life and embrace a happier, sexier, and more confident you? With nearly a decade of experience in training women, I am here to help you achieve the incredible transformation you deserve.
+          Are you ready to transform your life and embrace a happier, sexier, and more confident you? With nearly a decade of experience in Personal training ,
+           I am here to help you understand what it takes to achieve the incredible transformation you deserve.
         </Paragraph>
-        <Subtitle>Learn how to</Subtitle>
+        <Title>Whats included</Title>
         <List>
-          <ListItem><strong>  Shed unwanted fat and feel amazing in your skin</strong> </ListItem>
-          <ListItem><strong> Build strength without spending hours in the gym</strong> </ListItem>
-          <ListItem><strong>Learn the secrets to maintaining your results for life</strong></ListItem>
+          <ListItem>  Shed unwanted fat and feel amazing in your skin </ListItem>
+          <ListItem> Build strength without spending hours in the gym</ListItem>
+          <ListItem>Learn the secrets to maintaining your results for life</ListItem>
         </List>
         
         <Paragraph>

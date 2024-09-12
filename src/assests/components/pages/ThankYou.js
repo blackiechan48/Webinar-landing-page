@@ -17,15 +17,16 @@ const PageContainer = styled.div`
   }
 `;
 
-// Styled component for the video box
-const VideoBox = styled.div`
+// Styled component for the image box
+const ImageBox = styled.div`
   width: 100%;
-  aspect-ratio: 16/9; /* Maintains a 16:9 aspect ratio for the video */
+  aspect-ratio: 16/9; /* Maintains a 16:9 aspect ratio */
   margin-bottom: 20px;
 
-  iframe, video {
+  img {
     width: 100%;
     height: 100%;
+    object-fit: cover; /* Ensures the image covers the box properly */
     border: none;
   }
 `;
@@ -62,27 +63,26 @@ const TextContent = styled.div`
 const VideoPage = () => {
   return (
     <PageContainer>
-      {/* Video Box with iframe for embedding a video */}
-      <VideoBox>
-        {/* Replace the src with your video URL or embed code */}
-        <iframe 
-          src="https://www.youtube.com/watch?v=1u2kFqzC7ko" 
-          title="Thank you "
-          allowFullScreen
-        ></iframe>
-      </VideoBox>
+      {/* Image Box instead of video */}
+      <ImageBox>
+        {/* Replace the src with your image URL */}
+        <img 
+          src="/hurray1.jpg" 
+          alt="Thank you" 
+        />
+      </ImageBox>
 
       {/* Title, Subtitle, and Text Content */}
       <Title>YOU'RE IN! HURRAY!!</Title>
-      <Subtitle>Thank you, Your seat has been reserved and i look forward to seeing you.</Subtitle>
+      <Subtitle>Thank you, Your seat has been reserved and I look forward to seeing you.</Subtitle>
       <TextContent>
         <p>
-          Join us for an in-depth session where we'll dive into proven strategies for transforming your life. Whether you're looking to lose weight, build strength, or simply feel more confident in your skin, this webinar is for you.
+          Check your email (the one used during registration) and make sure that you received a registration confirmation, 
+          it does take about 10 mins for the email to arrive! (Please check your junk/ spam folder!)
         </p>
-        <p>
-          Our expert coaches have helped countless individuals achieve their goals, and now it's your turn. Don't miss out on this opportunity to learn, grow, and become the best version of yourself.
-        </p>
+        
       </TextContent>
+          
     </PageContainer>
   );
 };

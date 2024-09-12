@@ -25,7 +25,7 @@ const ShakeButton = styled.button`
   color: #333;
   border: none;
   border-radius: 5px;
-  font-size: 1em;
+  font-size: 1.5em;
   cursor: pointer;
   margin: 20px auto;
   display: block;
@@ -53,8 +53,8 @@ const Landing = () => {
     <>
       <Header />
       <ShakeButton onClick={handleOpenModal}>
-        <div>Main Text</div>
-        <small>Subtext goes here</small>
+        <div>Save my seat!</div>
+        <small>It's 100% free and seats are limited</small>
       </ShakeButton>
       <About />
 
@@ -66,8 +66,8 @@ const Landing = () => {
 
       
       <ShakeButton onClick={handleOpenModal}>
-        <div>Main Text</div>
-        <small>Subtext goes here</small>
+      <div>Save my seat!</div>
+      <small>It's 100% free and seats are limited</small>
       </ShakeButton>
 
       <Footer />
