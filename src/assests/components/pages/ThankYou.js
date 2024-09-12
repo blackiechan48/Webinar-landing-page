@@ -73,8 +73,8 @@ const VideoPage = () => {
       </VideoBox>
 
       {/* Title, Subtitle, and Text Content */}
-      <Title>Welcome to Our Exclusive Webinar</Title>
-      <Subtitle>Unlock Your Potential with Expert Guidance</Subtitle>
+      <Title>YOU'RE IN! HURRAY!!</Title>
+      <Subtitle>Thank you, Your seat has been reserved and i look forward to seeing you.</Subtitle>
       <TextContent>
         <p>
           Join us for an in-depth session where we'll dive into proven strategies for transforming your life. Whether you're looking to lose weight, build strength, or simply feel more confident in your skin, this webinar is for you.

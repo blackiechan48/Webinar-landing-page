@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import styled, { keyframes } from 'styled-components';
-import About from '../About'; // Import the About component
-import MailchimpForm from '../MailchimpForm'; // Import the Mailchimp form component
+import About from '../About'; 
+import MailchimpForm from '../MailchimpForm'; 
 import Header from '../Header';
 import Footer from '../Footer';
 
-// Define shake animation
+//  shake animation
 const shake = keyframes`
   0%, 100% {
     transform: translateX(0);
@@ -58,16 +58,13 @@ const Landing = () => {
       </ShakeButton>
       <About />
 
-      {/* Button at the top after About component */}
+      
     
 
-      {/* Display the Mailchimp form as a modal */}
+      
       <MailchimpForm show={isModalOpen} onClose={handleCloseModal} />
 
-      {/* Add other components and content */}
-      {/* Optional: Add more content here */}
       
-      {/* Button at the bottom of the page */}
       <ShakeButton onClick={handleOpenModal}>
         <div>Main Text</div>
         <small>Subtext goes here</small>
